@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Lobster&display=swap');
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 14px;
+}
+
+h1 {
+    color: blue;
+}
+
+.fontlist {
+    list-style: none;
+    /* list-style: georgian; */
+    /* list-style-image: url(../img/arrow.png); */
+}
+
+h2 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Lobster', cursive; */
+
+.size {
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+}
+
+.simple{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    /* text-decoration: line-through; */
+    letter-spacing: 2px;
+    text-shadow: red 0 0 10px;
+    text-transform: capitalize;
+}
+
+.complex {
+    width: 60%;
+}
+
+.complex span{
+    /* font-size: 2em; */
+    font-size: 2.6rem;
+}
+
+.more {
+    font-size: 2vw;
+}
