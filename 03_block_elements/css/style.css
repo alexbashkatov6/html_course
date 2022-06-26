@@ -1,61 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Lobster&display=swap');
-@font-face {
-    font-family: Montserrat;
-    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
-        url('../fonts/montserrat-regular-webfont.woff') format('woff'),
-        url('../fonts/Montserrat-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+.product-item__title {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    /* margin: 10px 0 15px; */
+    margin: 10px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px 15px;
+    line-height: 1;
+    border: 1px solid #000;
 }
-
-html {
-    font-size: 10px;
-}
-
-body {
-    font-size: 14px;
-}
-
-h1 {
-    color: blue;
-}
-
-.fontlist {
-    list-style: none;
-    /* list-style: georgian; */
-    /* list-style-image: url(../img/arrow.png); */
-}
-
-h2 {
-    font-family: Montserrat, Arial, Helvetica, sans-serif;
-}
-/* font-family: 'Barlow Condensed', sans-serif;
-font-family: 'Lobster', cursive; */
-
-.size {
-    font-family: 'Lobster', cursive;
-    /* font-family: 'Barlow Condensed', sans-serif; */
-}
-
-.simple{
-    font-size: 20px;
-    font-weight: bolder;
-    font-style: normal;
-    /* text-decoration: line-through; */
-    letter-spacing: 2px;
-    text-shadow: red 0 0 10px;
-    text-transform: capitalize;
-}
-
-.complex {
-    width: 60%;
-}
-
-.complex span{
-    /* font-size: 2em; */
-    font-size: 2.6rem;
-}
-
-.more {
-    font-size: 2vw;
+.product-item__description {
+    border: 1px solid #f00;
+    margin-top: -10px;
 }
