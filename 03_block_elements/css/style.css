@@ -1,16 +1,53 @@
+body {
+    background-image: url("../img/pattern-cube-shapes.png");
+    /* background-repeat: no-repeat;
+    background-position: 100px 20px; */
+    margin: 0;
+}
+
+.product-item {
+    /* background: url(../img/nature.jpg); */
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    margin: 0px 0px 50px;
+    height: 100vh;
+
+    /* background-color: #fff8; */
+    /* border-radius: 20px 50px;
+    border-radius: 50px 0 0 0;
+    border-radius: 20%/100%;
+    outline: 1px solid red;
+    box-shadow: black 0 0 20px 10px; */
+}
+
+.product-item:first-child {
+    background: url(../img/nature.jpg) no-repeat, url(../img/nature.jpg) no-repeat;
+    background-position: top center, bottom center;
+    background-size: 500px, 200px;
+    background-color: coral;
+}
+
+.product-item:nth-child(2) {
+    background: url(../img/nature.jpg) no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: right top;
+    background-color: coral;
+    background-attachment: fixed;
+}
+
 .product-item__title {
     width: 50%;
     height: auto;
     box-sizing: border-box;
-    /* margin: 10px 0 15px; */
     margin: 10px auto;
-    /* margin-left: auto;
-    margin-right: auto; */
     padding: 10px 15px;
-    line-height: 1;
-    border: 1px solid #000;
+    /* line-height: 1;
+    border: 1px solid #000; */
 }
+
 .product-item__description {
-    border: 1px solid #f00;
-    margin-top: -10px;
+    /* border: 1px solid #f00;
+    margin-top: -10px; */
 }
