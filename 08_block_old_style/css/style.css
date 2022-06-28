@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    display: inline-block;
+    /* display: table-cell; */
+    /* display: grid; */
+    text-align: center;
+    vertical-align: middle;
+}
