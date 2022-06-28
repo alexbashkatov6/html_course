@@ -1,0 +1,23 @@
+.flexwrap {
+    display: flex;
+    background-color: gray;
+    height: 500px;
+    /* justify-content: space-around; */
+    align-content: flex-start;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    flex-direction: row;
+}
+
+.flex-inner {
+    flex-basis: 400px;
+    background-color: olive;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    flex: 1 0 400px;
+}
